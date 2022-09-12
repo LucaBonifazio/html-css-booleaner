@@ -1,16 +1,16 @@
  header{
-    background-color: rgb(103, 103, 255);
+    background-color: rgb(56, 168, 244);
+    background-image: url("../img/pattern.png");
     height: 170px;
-    background-image: cover;
-}
-
-.sfondo{
-    height: 100%;
+    position: relative;
 }
 
 #logo{
-    width: auto;
+    width: 800px;
     height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 h1{
@@ -24,14 +24,20 @@ h3{
 
 #link{
     text-decoration: none;
+    color: rgb(21, 146, 219);
 }
 
-.tim-img{
+.container-tim-img{
     padding-top: 30px;
 }
 
+.img-tim{
+    width: auto;
+    height: 500px;
+}
+
 .photo-text{
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .text{
@@ -43,10 +49,44 @@ h3{
     background-color: rgb(215, 178, 42);
 }
 
-thead{
-    background-color: aqua;
+table{
+    width: 100%;
 }
 
-tbody{
-    background-color: aquamarine;
+td{
+    height: 20px;
+    padding: 15px;
+    margin: 0;
+}
+
+.container-row{
+    padding: 15px;
+    margin: 0;
+}
+
+.row-head{
+    background-color: rgb(47, 151, 185);
+    color: white;
+}
+
+.row1, .row3{
+    background-color: rgb(21, 241, 245);
+}
+
+.container-last-img{
+    padding-top: 10px;
+}
+
+.last-img{
+    background-image: url(../img/monitor.jpg);
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.last-img2{
+    background-image: url(../img/graph.jpg);
+    width: 200px;
+    height: 200px;
+    color: white;
 }

@@ -9,17 +9,17 @@
 </head>
 <body>
     <header>
-        <img class="sfondo" src="img/pattern.png" alt="background">
         <img id="logo" src="img/logo.svg" alt="logo">
     </header>
+
     <main>
         <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
 
         <h3>Scritto da <a id="link" href="https://boolean.careers/?utm_source=google&utm_campaign=it_search_brand&utm_medium=cpc&utm_content=boolean_careers&utm_term=boolean%20careers&gclid=CjwKCAjwsfuYBhAZEiwA5a6CDFUe_lA_s-b0l458QRxaYaTAhBG7MHi_dUgt52q5Jx7T-3DF8MlUCBoCIZQQAvD_BwE">The Booleaner</a><br>il 10/10/2020</h3>
 
-        <div class="tim-img">
-            <img src="img/tim-1.jpg" alt="tim1">
-            <img src="img/tim-2.jpg" alt="tim2">
+        <div class="container-tim-img">
+            <img class="img-tim" src="img/tim-1.jpg" alt="tim1">
+            <img class="img-tim" src="img/tim-2.jpg" alt="tim2">
         </div> 
 
         <p class="photo-text">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen <br>
@@ -37,25 +37,29 @@
         </ul>
 
         <table>
-            <thead>
-                <th>Lorem</th>
-                <th>ipsum dolor sit</th>
-                <th>placeat praesentium id aperiam!</th>
+            <thead class="container-row">
+                <tr class="row-head">
+                    <td>Lorem</td>
+                    <td>ipsum dolor sit</td>
+                    <td>placeat praesentium id aperiam!</td>
+                </tr>
             </thead>
-            <tbody>
-                <td>Lorem</td>
-                <td>ipsum dolor sit</td>
-                <td>placeat praesentium id aperiam!</td>
-            </tbody>
-            <tbody>
-                <td>Lorem</td>
-                <td>ipsum dolor sit</td>
-                <td>placeat praesentium id aperiam!</td>
-            </tbody>
-            <tbody>
-                <td>Lorem</td>
-                <td>ipsum dolor sit</td>
-                <td>placeat praesentium id aperiam!</td>
+            <tbody class="container-row">
+                <tr class="row1">
+                    <td>Lorem</td>
+                    <td>ipsum dolor sit</td>
+                    <td>placeat praesentium id aperiam!placeat praesentium id aperiam!placeat praesentium id aperiam!</td>
+                </tr>
+                <tr class="row2">
+                    <td>Lorem</td>
+                    <td>ipsum dolor sit</td>
+                    <td>placeat praesentium id aperiam!placeat praesentium id aperiam!placeat praesentium id aperiam!</td>
+                </tr>
+                <tr class="row3">
+                    <td>Lorem</td>
+                    <td>ipsum dolor sit</td>
+                    <td>placeat praesentium id aperiam!placeat praesentium id aperiam!placeat praesentium id aperiam!</td>
+                </tr>
             </tbody>
         </table>
 
@@ -68,11 +72,9 @@
 
     <footer>
         <div>Potrebbero interessarti</div>
-        <div>Lorem, ipsum dolor sit
-            <img src="img/graph.jpg" alt="graph">
-        </div>
-        <div>Lorem, ipsum dolor sit
-        <img src="img/monitor.jpg" alt="monitor">
+        <div class="container-last-img">
+            <div class="last-img">Lorem, ipsum dolor sit</div>
+            <div class="last-img2">Lorem, ipsum dolor sit</div>
         </div>
     </footer>
     
