@@ -6,8 +6,8 @@
 }
 
 #logo{
-    width: 800px;
-    height: 50px;
+    width: auto;
+    height: 70px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -40,7 +40,7 @@ h3{
     font-size: 12px;
 }
 
-.text{
+.text, ul{
     padding-top: 30px;
     font-weight: bold;
 }
@@ -51,6 +51,7 @@ h3{
 
 table{
     width: 100%;
+    font-weight: bold;
 }
 
 td{
@@ -60,8 +61,7 @@ td{
 }
 
 .container-row{
-    padding: 15px;
-    margin: 0;
+    padding: 25px;
 }
 
 .row-head{
@@ -73,20 +73,22 @@ td{
     background-color: rgb(21, 241, 245);
 }
 
-.container-last-img{
-    padding-top: 10px;
-}
-
 .last-img{
     background-image: url(../img/monitor.jpg);
-    width: 200px;
+    width: auto;
     height: 200px;
     color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
 }
 
 .last-img2{
     background-image: url(../img/graph.jpg);
-    width: 200px;
+    width: auto;
     height: 200px;
     color: white;
+    font-size: 20px;
+    background-repeat: no-repeat;
 }
