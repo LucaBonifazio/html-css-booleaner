@@ -1,9 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}   
-  
-header{
+ header{
     background-color: rgb(103, 103, 255);
     height: 170px;
     background-image: cover;
@@ -32,6 +27,26 @@ h3{
 }
 
 .tim-img{
-    background-size: cover;
     padding-top: 30px;
+}
+
+.photo-text{
+    font-size: 15px;
+}
+
+.text{
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.color-text{
+    background-color: rgb(215, 178, 42);
+}
+
+thead{
+    background-color: aqua;
+}
+
+tbody{
+    background-color: aquamarine;
 }
