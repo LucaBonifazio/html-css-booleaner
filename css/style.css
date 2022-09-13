@@ -6,7 +6,6 @@
 }
 
 #logo{
-    width: auto;
     height: 70px;
     position: absolute;
     bottom: 0;
@@ -22,7 +21,7 @@ h3{
     color: gray;
 }
 
-#link{
+#boolean{
     text-decoration: none;
     color: rgb(21, 146, 219);
 }
@@ -52,10 +51,10 @@ h3{
 table{
     width: 100%;
     font-weight: bold;
+    border-spacing: 0;
 }
 
 td{
-    height: 10px;
     width: 50px;
     padding: 0;
 }
