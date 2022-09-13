@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+main, footer{
+    padding: 100px;
+}
+
+
+header{
+    background-color: rgb(56, 168, 244);
+    background-image: url("../img/pattern.png");
+    height: 170px;
+    position: relative;
+}
+
+#logo{
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+h3{
+    color: gray;
+}
+
+#boolean{
+    text-decoration: none;
+    color: rgb(21, 146, 219);
+}
+
+.container-tim-img{
+    padding-top: 30px;
+    width: 100%;
+}
+
+.img-tim{
+    width: auto;
+}
+
+.photo-text{
+    font-size: 12px;
+}
+
+.text, ul{
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.color-text{
+    background-color: rgb(215, 178, 42);
+}
+
+table{
+    width: 100%;
+    font-weight: bold;
+    border-spacing: 0;
+}
+
+td{
+    width: 50px;
+    padding: 0;
+}
+
+.row-head{
+    background-color: rgb(47, 151, 185);
+    color: white;
+}
+
+.row1, .row3{
+    background-color: rgb(21, 241, 245);
+}
+
+.last-img{
+    background-image: url(../img/monitor.jpg);
+    width: auto;
+    height: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+}
+
+.last-img2{
+    background-image: url(../img/graph.jpg);
+    width: auto;
+    height: 200px;
+    color: white;
+    font-size: 20px;
+    background-repeat: no-repeat;
+}
